@@ -1,3 +1,4 @@
+base: "/[lab-react-jsx]/"
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
