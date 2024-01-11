@@ -2,6 +2,7 @@ import "./App.css";
 import elephant from "./images/elephant.jpeg";
 
 const imageData = () => {
+  // differentiate by ID 
   let data = [
     {
       id: 1,
@@ -30,6 +31,7 @@ function App() {
     <>
       <h1>Kalvium Gallary - App.jsx</h1>
       <div className="container">
+        {/* use map to traverse throught the array */}
         {imgData.map((e) => {
           return <img key={e.id} src={e.img} alt="" />;
         })}
